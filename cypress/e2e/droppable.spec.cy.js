@@ -14,11 +14,6 @@ describe("Droppable - Positive Case", () => {
         droppabelPage.dragAndDropAccept();
         droppabelPage.verifyDroppedElement()
     });
-
-    it.skip("TC Drag and drop the element - Prevent Propagation", () => {
-        droppabelPage.dragAndDropPreventPropogation();
-        droppabelPage.verifyDroppedElement()
-    });
 });
 
 describe("Droppable - Negative Case", () => {
